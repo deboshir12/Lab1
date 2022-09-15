@@ -18,7 +18,7 @@ with open ('books.csv','r') as csvfile:
     
     for row in table: # 20 записей-ссылок 
         if c < 21 and c>0:
-            f.write(row[3]+'. '+row[1]+' - '+ row[6]+ '\n')
+            f.write(str(c)+'. ' + row[3]+'. '+row[1]+' - '+ row[6][:4:]+ '\n')
         if len(row[1]) > 30:
             count_str += 1
             
