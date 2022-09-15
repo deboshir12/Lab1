@@ -6,6 +6,7 @@ Tags_file = open('TAGS.txt','w',encoding='utf-16')
 
 
 search = input('Search for: ')
+#print('\n')
 flag = 0
 c = 0
 tags = []
